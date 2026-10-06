@@ -1,0 +1,6 @@
+{
+  "name": "Nova Finance",
+  "description": "Futuristic offline-first personal finance operating system with smart net worth, debts, accounts, and insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

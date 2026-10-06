@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glowing futuristic polygon/hexagon -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 L82,40 L82,72 L54,88 L26,72 L26,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="24"
+                android:endX="82"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A00E5FF" />
+                <item android:offset="1.0" android:color="#0D00E5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ascending Dynamic Fintech Chart Bars & Arrow -->
+    <!-- Bar 1 -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M37,70 L43,70 L43,58 L37,58 Z" />
+
+    <!-- Bar 2 -->
+    <path
+        android:fillColor="#00F5A0"
+        android:pathData="M46,70 L52,70 L52,50 L46,50 Z" />
+
+    <!-- Bar 3 -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M55,70 L61,70 L61,42 L55,42 Z" />
+
+    <!-- Bar 4 / Peak -->
+    <path
+        android:fillColor="#38E1FF"
+        android:pathData="M64,70 L70,70 L70,36 L64,36 Z" />
+
+    <!-- Ascending Neon Trendline with Arrow -->
+    <path
+        android:strokeColor="#00F5A0"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,60 L49,52 L58,45 L71,32" />
+
+    <path
+        android:fillColor="#00F5A0"
+        android:pathData="M73,30 L66,31 L69,37 Z" />
+
+    <!-- Sparkle / Central Core Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 A2,2 0 1,1 54,30 A2,2 0 1,1 54,34 Z" />
+</vector>
